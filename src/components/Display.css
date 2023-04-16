@@ -1,0 +1,13 @@
+.display{
+    grid-column: span 4;
+    background-color: #0007;
+    display: flex;
+    justify-content: right;
+    overflow: hidden;
+}
+
+.value{
+    font-size: 1.5em;
+    position: fixed;
+    padding: 25px 15px 0px 0px
+}
