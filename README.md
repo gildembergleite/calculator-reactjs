@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Calculadora Simples em React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de uma calculadora simples desenvolvida em React.js. A calculadora realiza as quatro operações matemáticas básicas (adição, subtração, multiplicação e divisão), além de incluir a funcionalidade de cálculo de porcentagem. A aplicação está disponível no seguinte site: [Calculadora Simples](https://calculator-two-jet.vercel.app/).
 
-## Available Scripts
+## Guia de Instalação do Node.js
 
-In the project directory, you can run:
+Antes de clonar o repositório e executar a calculadora, é necessário instalar o Node.js em seu ambiente. O Node.js é uma plataforma de desenvolvimento JavaScript que permite a execução de código JavaScript fora do navegador. Siga as etapas abaixo para instalar o Node.js:
 
-### `npm start`
+1. Acesse o site oficial do Node.js em [https://nodejs.org](https://nodejs.org).
+2. Na página inicial, você encontrará duas versões do Node.js para download: LTS (Long-Term Support) e Current. É recomendado baixar a versão LTS, pois é a versão estável mais recente.
+3. Selecione a versão LTS e escolha o instalador adequado para o seu sistema operacional (Windows, macOS ou Linux).
+4. Baixe o instalador e execute-o.
+5. Siga as instruções do assistente de instalação para concluir a instalação do Node.js em seu sistema.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Após a conclusão da instalação, o Node.js estará pronto para uso.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Guia de Clonagem do Repositório
 
-### `npm test`
+Agora que você tem o Node.js instalado, pode clonar o repositório da calculadora e executá-la em sua máquina local. Siga as etapas abaixo para clonar o repositório:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Abra o terminal ou prompt de comando em seu sistema operacional.
+2. Navegue até o diretório no qual deseja clonar o repositório da calculadora.
+3. Execute o seguinte comando para clonar o repositório:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/gildembergleite/calculator-reactjs.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Aguarde até que o repositório seja clonado com sucesso.
+5. Após a conclusão da clonagem, navegue até o diretório do projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd calculator-reactjs
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Agora você está pronto para executar a calculadora localmente.
 
-### `npm run eject`
+## Executando a Calculadora
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Após clonar o repositório e navegar até o diretório do projeto, siga as etapas abaixo para executar a calculadora:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Certifique-se de estar no diretório raiz do projeto (onde se encontra o arquivo `package.json`).
+2. Execute o seguinte comando para instalar as dependências do projeto:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Aguarde até que todas as dependências sejam instaladas corretamente.
+4. Após a conclusão da instalação, execute o seguinte comando para iniciar a aplicação:
 
-## Learn More
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Aguarde até que a aplicação seja
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ iniciada e aberta no seu navegador padrão.
+6. Agora você pode usar a calculadora para realizar cálculos matemáticos simples, incluindo as operações básicas (adição, subtração, multiplicação e divisão) e o cálculo de porcentagem.
 
-### Code Splitting
+Aproveite a calculadora e experimente diferentes cálculos!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Observação**: Certifique-se de ter o Node.js instalado e estar conectado à internet para que as dependências possam ser instaladas corretamente e a aplicação seja executada adequadamente.
